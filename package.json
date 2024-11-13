@@ -1,6 +1,6 @@
 {
   "name": "o2r",
-  "version": "1.0.0-beta.01",
+  "version": "1.0.1",
   "description": "Convert object to vue or react router",
   "repository": "techbasejs/o2r",
   "license": "MIT",
@@ -25,7 +25,8 @@
     "format": "prettier -c src test"
   },
   "dependencies": {
-    "knitwork": "1.1.0"
+    "knitwork": "1.1.0",
+    "pathe": "1.1.2"
   },
   "devDependencies": {
     "@types/node": "^20.16.10",

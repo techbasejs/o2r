@@ -1,7 +1,7 @@
 import { ReactRouter, ReactRouterOptions } from "./types"
 import { genArrayFromRaw, genImport } from 'knitwork';
 import { buildRouteTree, convertPathToCamelCase, Node } from "./utils";
-import path from "path";
+import path from "pathe";
 
 export const genReactRouter = (paths: string[], options?: ReactRouterOptions) => {
     const routeTree = buildRouteTree(paths)
@@ -66,7 +66,7 @@ const buildReactRoutes = (routes: Node[]) => {
 
 export const buildReactRouteImports = (paths: string[], options?: ReactRouterOptions) => {
     const rootDir = options?.rootDir || "";
-    return paths.map(_path => genImport(path.join(rootDir, _path), convertPathToCamelCase(_path)))
+    return paths.map(_path => genImport(path.resolve(rootDir, _path), convertPathToCamelCase(_path)))
 }
 
 export const getLayout = (routes: Node[]) => {
