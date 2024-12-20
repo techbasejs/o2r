@@ -2,6 +2,4 @@
 
 Convert object to vue router or react router.
 
-Edit readme.
-
 Edit more.
