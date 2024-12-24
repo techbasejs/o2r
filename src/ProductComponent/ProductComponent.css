@@ -1,0 +1,27 @@
+.productTile {
+    height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    background: #282c34;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.productName {
+    color: aliceblue;
+    border-color: #F0F8FF;
+    height: 30px;
+    text-align: center;
+    border-width: 0 0 2px 0;
+    border-style: double;
+    margin: 15px 15px;
+}
+
+.productDescription {
+    text-align: center;
+    margin: 0 15px;
+    color: #F0F8FF;
+}
