@@ -14,5 +14,5 @@ export const Default = Template.bind({});
 
 Default.args = { id: 'story1',
     name: '2GB',
-    description: 'This is to test the storybook version 02'
+    description: 'This is to test the storybook version 02 edit by thanhduongbkdn2012'
 };
