@@ -1,4 +1,4 @@
-#Storybook Demo 12s
+#Storybook Demo 12ss
 
 ![Storybook Demo Screenshot](public/storybook_example.png?raw=true "Screenshot")
 
