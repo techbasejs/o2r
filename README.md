@@ -1,4 +1,4 @@
-#Storybook Demo 12ssssssssssss
+#Storybook gitea
 ss
 ![Storybook Demo Screenshot](public/storybook_example.png?raw=true "Screenshot")
 
